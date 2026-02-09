@@ -1,0 +1,16 @@
+name: tx_3stops_alert
+description: TX 3-stops-before alert app (MVP)
+publish_to: "none"
+version: 0.0.1+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/tx_stations.json
